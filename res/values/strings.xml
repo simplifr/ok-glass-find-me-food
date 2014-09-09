@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">ok-glass-find-me-food</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="stop">Stop</string>
     <string name="action_settings">Settings</string>
     <string name="glass_voice_trigger">find me food</string>
 
