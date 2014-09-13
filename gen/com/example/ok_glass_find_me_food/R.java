@@ -28,8 +28,16 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int awayScoreTextView=0x7f0a0006;
+        public static final int awayTeamNameTextView=0x7f0a0004;
+        public static final int away_score_text_view=0x7f0a0003;
+        public static final int away_team_name_text_view=0x7f0a0002;
+        public static final int footer_text=0x7f0a0008;
+        public static final int homeTeamNameTextView=0x7f0a0007;
+        public static final int home_score_text_view=0x7f0a0005;
+        public static final int home_team_name_text_view=0x7f0a0001;
         public static final int seconds=0x7f0a0000;
-        public static final int stop=0x7f0a0001;
+        public static final int stop=0x7f0a0009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
