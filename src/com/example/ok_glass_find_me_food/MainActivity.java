@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.google.android.glass.app.Card;
 
 
 public class MainActivity extends Activity {
@@ -11,7 +12,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+        Card card = new Card(this);
+        card.setText("Hello Glass, find me food.");
+        card.setFootnote("simplifr");
+
+        setContentView(card.getView());
     }
 
 
